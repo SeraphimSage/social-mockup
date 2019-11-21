@@ -1,0 +1,101 @@
+:root {
+    --blankbackground-color: white;
+    --colorbackground-color: #4b5b9e;
+}
+body {
+    background-color: lightgrey;
+}
+.cover {
+    margin: auto;
+    background-color: var(--colorbackground-color);
+    border: 0px solid var(--colorbackground-color);
+    width: 850px;
+    height: 250px;
+}
+
+h2, h3 {
+    color: var(--blankbackground-color);
+    text-align: justify;
+    position: relative;
+    top:  150px;
+    left: 200px;
+}
+
+button {
+    position: relative;
+    font-size: large;
+    top: 100px;
+    left: 580px;
+    float: left;
+}
+
+.likebutton {
+    margin-right: 10px;
+}
+
+.profilepicture {
+    border: solid black 1px;
+    height: 150px;
+    width: 150px;
+    background-color: var(--colorbackground-color);
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.nav {
+    background-color: var(--blankbackground-color);
+    width: 850px;
+    height: 80px;
+    margin: auto;
+}
+
+.timeline, .aboutbutton, .welcome, .fwb, .morenav {
+    float: left;
+    position: relative;
+    margin: auto;
+}
+
+.about {
+    width: 328px;
+    height: 180px;
+    background-color: var(--blankbackground-color);
+    float: left;
+    position: relative;
+    left: 493px;
+    top: 10px;
+}
+
+.about-info {
+    border: solid black 0.5px;
+    position: relative;
+    top: 20px;
+}
+
+.about-info p {
+    color: var(--colorbackground-color);
+}
+
+.about a {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+.post {
+    position: relative;
+    top: 10px;
+    left: 831px;
+    width: 512px;
+    height: 180px;
+    background-color: var(--blankbackground-color);
+    
+}
+
+.actions {
+    width: 512px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 50px;
+    right: 900px;
+}
